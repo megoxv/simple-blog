@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, Oxygen;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box-shadow {
+  box-shadow: 0 5px 12px 0 rgb(0 0 0 / 10%);
+}
+.box-shadow-hover {
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+}
+.widget-shadow {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.card:hover .category {
+  background-color: #4338ca;
+  height: calc();
+}
+.h-screen-calc {
+  height: calc(100vh - 274px);
+}
